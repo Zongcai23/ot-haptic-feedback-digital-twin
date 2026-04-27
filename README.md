@@ -15,7 +15,7 @@
 Imperial College London
 -->
 
-This repository contains a **clean public release for the haptic teleoperation side** of our digital-twin framework for optical microrobots. The release is organised like a typical conference-code repository: a short paper-level overview, a compact code map, and a practical tutorial that explains how to build and run the haptic interface and how to connect it to a simulator / digital twin.
+This repository contains a **clean public release for the haptic teleoperation side** of our digital-twin framework for optical microrobots. The release consists of 3 parts: a short paper-level overview, a compact code map, and a practical tutorial that explains how to build and run the haptic interface and how to connect it to a simulator / digital twin.
 
 At a glance, the framework combines five connected blocks:
 
