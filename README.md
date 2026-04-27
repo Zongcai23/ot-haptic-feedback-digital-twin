@@ -35,8 +35,10 @@ A dedicated `code/vision/` folder is prepared for the perception module used in 
 ### Control and signal flow
 ![Control flow](assets/figures/control_signal_flow.png)
 
+<!--
 ### Representative user-study results
 ![User study results](assets/figures/user_study_results.png)
+-->
 
 ## Code map
 
