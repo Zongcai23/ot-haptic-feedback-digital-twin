@@ -96,8 +96,9 @@ rostopic echo /GeomagicRight/smoothed_twist
 - [`tutorials/01_prerequisites.md`](tutorials/01_prerequisites.md)
 - [`tutorials/02_build_and_run_haptic_interface.md`](tutorials/02_build_and_run_haptic_interface.md)
 - [`tutorials/03_connect_to_simulator_or_isaacsim.md`](tutorials/03_connect_to_simulator_or_isaacsim.md)
+<!--
 - [`tutorials/04_repository_customisation.md`](tutorials/04_repository_customisation.md)
-
+-->
 ## Repository structure
 
 ```text
@@ -130,9 +131,10 @@ ot-haptic-feedback-digital-twin/
 └── paper/
     └── MARSS2026_digital_twin_visuohaptic.pdf
 ```
-
+<!--
 ## Practical note
 This repository is intentionally **not** a GitHub Pages website. It is a standard paper-code repository that you can upload directly to GitHub and cite using the repository link itself.
 
 ## Citation
 If you find this repository useful, please cite the corresponding paper.
+-->
