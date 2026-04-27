@@ -1,7 +1,19 @@
 # A Digital Twin Framework for Virtual Visuo-Haptic Teleoperation of Complex-Shaped Optical Microrobots
 
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1TxAtb-vB2ncwe8-VzINXJNkIC708ikQt/view?usp=sharing"><img src="https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge"></a>
+  <a href="https://sites.google.com/view/dthtframe/%E9%A6%96%E9%A1%B5"><img src="https://img.shields.io/badge/Project-Website-blue?style=for-the-badge"></a>
+  <a href="https://drive.google.com/file/d/1mpAjNmRjuYFRDYTJD2euEBR9yDKwae_z/view?usp=sharing"><img src="https://img.shields.io/badge/Video-Long%20Video-purple?style=for-the-badge"></a>
+</p>
+
+<p align="center"><strong>Zongcai Tan</strong>, <strong>Lan Wei</strong>, <strong>Dandan Zhang</strong></p>
+<p align="center">Imperial College London</p>
+
+<!--
 **Zongcai Tan, Lan Wei, Dandan Zhang**  
 Imperial College London
+-->
 
 This repository contains a **clean public release for the haptic teleoperation side** of our digital-twin framework for optical microrobots. The release is organised like a typical conference-code repository: a short paper-level overview, a compact code map, and a practical tutorial that explains how to build and run the haptic interface and how to connect it to a simulator / digital twin.
 
