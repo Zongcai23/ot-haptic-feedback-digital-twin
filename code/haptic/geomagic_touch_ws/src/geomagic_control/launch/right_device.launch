@@ -1,0 +1,9 @@
+<launch>
+  <include file="$(find geomagic_control)/launch/geomagic_headless.launch">
+    <arg name="device_name" value="Right Geomagic Touch"/>
+    <arg name="prefix" value="GeomagicRight"/>
+    <arg name="ot_topic" value="/secondOTposition"/>
+    <arg name="robot_topic" value="/robot02"/>
+    <arg name="xform_topic" value="/xform"/>
+  </include>
+</launch>

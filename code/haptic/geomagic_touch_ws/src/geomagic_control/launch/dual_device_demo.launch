@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find geomagic_control)/launch/left_device.launch"/>
+  <include file="$(find geomagic_control)/launch/right_device.launch"/>
+</launch>

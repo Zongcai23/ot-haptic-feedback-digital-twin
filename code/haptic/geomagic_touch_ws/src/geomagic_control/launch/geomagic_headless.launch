@@ -1,0 +1,34 @@
+<launch>
+  <arg name="device_name" default="Default Device"/>
+  <arg name="prefix" default="Geomagic2"/>
+  <arg name="ot_topic" default="/secondOTposition"/>
+  <arg name="robot_topic" default="/robot02"/>
+  <arg name="xform_topic" default="/xform"/>
+  <arg name="twist_topic" default="twist"/>
+  <arg name="smoothed_twist_topic" default="smoothed_twist"/>
+  <arg name="force_feedback_topic" default="force_feedback"/>
+
+  <param name="publish_rate" type="int" value="2000" />
+  <param name="record" type="bool" value="False" />
+
+  <group ns="$(arg prefix)">
+    <node name="$(arg prefix)" pkg="geomagic_control" type="device_node" output="screen">
+      <param name="device_name" type="str" value="$(arg device_name)"/>
+    </node>
+
+    <param name="$(arg prefix)_robot_description" command="cat $(find geomagic_description)/urdf/geomagic.urdf" />
+
+    <node name="$(arg prefix)_robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
+      <remap from="robot_description" to="$(arg prefix)_robot_description" />
+    </node>
+
+    <node name="$(arg prefix)_force_pub" pkg="geomagic_control" type="force_pub.py" output="screen">
+      <param name="ot_topic" value="$(arg ot_topic)"/>
+      <param name="robot_topic" value="$(arg robot_topic)"/>
+      <param name="xform_topic" value="$(arg xform_topic)"/>
+      <param name="twist_topic" value="$(arg twist_topic)"/>
+      <param name="smoothed_twist_topic" value="$(arg smoothed_twist_topic)"/>
+      <param name="force_feedback_topic" value="$(arg force_feedback_topic)"/>
+    </node>
+  </group>
+</launch>
