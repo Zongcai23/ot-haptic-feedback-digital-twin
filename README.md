@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1TxAtb-vB2ncwe8-VzINXJNkIC708ikQt/view?usp=sharing"><img src="https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge"></a>
-  <a href="https://sites.google.com/view/dthtframe/%E9%A6%96%E9%A1%B5"><img src="https://img.shields.io/badge/Project-Website-blue?style=for-the-badge"></a>
+  <a href="https://zongcai23.github.io/digital-twin-visuo-haptic/"><img src="https://img.shields.io/badge/Project-Website-blue?style=for-the-badge"></a>
   <a href="https://drive.google.com/file/d/1mpAjNmRjuYFRDYTJD2euEBR9yDKwae_z/view?usp=sharing"><img src="https://img.shields.io/badge/Video-Long%20Video-purple?style=for-the-badge"></a>
 </p>
 
