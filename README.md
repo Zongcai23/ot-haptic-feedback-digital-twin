@@ -13,9 +13,13 @@
 <!--
 **Zongcai Tan, Lan Wei, Dandan Zhang**  
 Imperial College London
--->
+
 
 This repository contains a **clean public release for the haptic teleoperation side** of our digital-twin framework for optical microrobots. The release consists of 3 parts: a short paper-level overview, a compact code map, and a practical tutorial that explains how to build and run the haptic interface and how to connect it to a simulator / digital twin.
+-->
+This repository contains a **clean public release for our digital-twin framework for optical microrobots**, with an emphasis on the visuo-haptic teleoperation interface and the pose-and-depth estimation module used for deployment-oriented reconstruction. The release consists of a short paper-level overview, a compact code map, and practical tutorials for both the haptic interface and the perception pipeline.
+
+For the broader digital-twin simulator and the **ROS 2 / reinforcement-learning deployment version**, please also refer to our companion repository `ICRA2025-OT-Gym`.
 
 At a glance, the framework combines five connected blocks:
 
