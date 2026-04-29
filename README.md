@@ -125,6 +125,7 @@ rostopic echo /GeomagicRight/smoothed_twist
 - [`tutorials/01_prerequisites.md`](tutorials/01_prerequisites.md)
 - [`tutorials/02_build_and_run_haptic_interface.md`](tutorials/02_build_and_run_haptic_interface.md)
 - [`tutorials/03_connect_to_simulator_or_isaacsim.md`](tutorials/03_connect_to_simulator_or_isaacsim.md)
+- [`tutorials/04_pose_and_depth_estimation.md`](tutorials/04_pose_and_depth_estimation.md)
 <!--
 - [`tutorials/04_repository_customisation.md`](tutorials/04_repository_customisation.md)
 -->
