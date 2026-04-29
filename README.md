@@ -83,10 +83,17 @@ The `code/vision/Pose_and_Depth.ipynb` notebook provides a step-by-step percepti
 
 - `code/haptic/geomagic_touch_ws/src/geomagic_control/launch/dual_device_demo.launch`  
   Convenience launch file for starting both devices.
-
+<!--
 ### Vision slot
 - `code/vision/README.md`  
   Notes on how to place the pose/depth notebook and checkpoints into the repository later.
+-->
+### Vision module
+- `code/vision/Pose_and_Depth.ipynb`  
+  Step-by-step notebook for pose prediction and depth estimation from microscope images.
+
+- `code/vision/README.md`  
+  Module notes, usage instructions, and expected folder layout for the perception pipeline.
 
 ## Quick start
 
