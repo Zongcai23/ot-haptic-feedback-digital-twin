@@ -40,9 +40,13 @@ This release keeps the topic-level interface that the simulator is expected to s
 ### 3. Model-based haptic rendering
 The haptic rendering logic is implemented in `force_pub.py`. The node reads simulator state, computes a filtered force cue, and publishes `DeviceFeedback` messages to the Geomagic device namespace.
 
+<!--
 ### 4. Pose and depth estimation slot
 A dedicated `code/vision/` folder is prepared for the perception module used in the paper. The public release keeps the repository structure and documentation ready for that module without pretending to release code that is not yet included.
+-->
 
+### 4. Pose and depth estimation
+The `code/vision/Pose_and_Depth.ipynb` notebook provides a step-by-step perception pipeline for microscope-image-based pose prediction and depth estimation. It serves as the deployment-oriented perception entry point for digital-twin alignment described in the paper.
 ## Key figures
 
 ### Digital twin scene
