@@ -19,7 +19,7 @@ This repository contains a **clean public release for the haptic teleoperation s
 -->
 This repository contains a **clean public release for our digital-twin framework for optical microrobots**, with an emphasis on the visuo-haptic teleoperation interface and the pose-and-depth estimation module used for deployment-oriented reconstruction. The release consists of a short paper-level overview, a compact code map, and practical tutorials for both the haptic interface and the perception pipeline.
 
-For the broader digital-twin simulator and the **ROS 2 / reinforcement-learning deployment version**, please also refer to our companion repository `ICRA2025-OT-Gym`.
+For the broader digital-twin simulator and the **ROS 2 / reinforcement-learning deployment version**, please also refer to our companion repository `http://github.com/Zongcai23/digital-twin-ros2-rl-navigation/tree/main`.
 
 At a glance, the framework combines five connected blocks:
 
