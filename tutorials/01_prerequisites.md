@@ -4,7 +4,6 @@ This repository is organised for a **standard GitHub code release**, not a stand
 
 ## Operating system
 - Ubuntu 20.04/22.04 is recommended.
-- ROS2 Foxy is recommended.
 
 ## Core ROS packages
 Install ROS and common dependencies first:
