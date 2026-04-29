@@ -151,6 +151,7 @@ ot-haptic-feedback-digital-twin/
 │   │           ├── geomagic_control/
 │   │           └── geomagic_description/
 │   └── vision/
+│       ├── Pose_and_Depth.ipynb
 │       └── README.md
 ├── tutorials/
 │   ├── 01_prerequisites.md
